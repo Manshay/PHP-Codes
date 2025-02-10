@@ -1,11 +1,23 @@
 <?php
-	$numbers = [10, 20, 30, 40, 50];
-	foreach ($numbers as $num) echo $num . "<br>";
+	//First Method
+	$numbers = array(1,2,3,4,5);
+	foreach($numbers as $value){
+		echo "Value is: $value <br/>";
+	}
 
-	$numbers[] = 60;
-	echo "After adding: <br>";
+	echo "<br>";
 
-	foreach ($numbers as $num) echo $num . "<br>";
-	echo "<br><br>";
+	//Second Method
+	$numbers[0] = "one";
+	$numbers[1] = "two";
+	$numbers[2] = "three";
+	$numbers[3] = "four";
+	$numbers[4] = "five";
+	
+	foreach($numbers as $value){
+		echo "Value is: $value <br/>";
+	}
+	
+	echo "<br>";
 	echo "Code executed by Manshay(0221BCA106)";
 ?>

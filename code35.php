@@ -1,12 +1,14 @@
 <?php
-	function incrementValue(&$num) {
-    		$num += 10; // Increment the value by 10
+	function selfMultiply(&$number){
+		$number *= $number;
+		return $number;
 	}
-
-	$value = 20;
-	incrementValue($value);
-
-	echo "The updated value is: " . $value; 
+	
+	$mynum = 5;
+	echo "The number is: " . $mynum;
+	echo "<br>";
+	selfMultiply($mynum);
+	echo "Number after multiplication: " . $mynum;
 	echo "<br><br>";
 	echo "Code executed by Manshay(0221BCA106)";
 ?>
