@@ -2,8 +2,8 @@
 // Associative array storing marks of students in 5 subjects
 $students = [
     "Manshay" => ["C" => 85, "Algo" => 90, "DS" => 78, "DBMS" => 88, "Stats" => 76],
-    "Rahul" => ["C" => 92, "Algo" => 80, "DS" => 89, "DBMS" => 84, "Stats" => 90],
-    "Rajat" => ["C" => 75, "Algo" => 85, "DS" => 80, "DBMS" => 79, "Stats" => 82]
+    "Krish" => ["C" => 92, "Algo" => 80, "DS" => 89, "DBMS" => 84, "Stats" => 90],
+    "Harsh" => ["C" => 75, "Algo" => 85, "DS" => 80, "DBMS" => 79, "Stats" => 82]
 ];
 
 // Extract subjects dynamically
@@ -14,11 +14,11 @@ echo "<tr>
         <th>SR No</th>
         <th>Subject</th>
         <th>Manshay</th>
-        <th>Rahul</th>
-        <th>Rajat</th>
+        <th>Krish</th>
+        <th>Harsh</th>
       </tr>";
 
-$totals = ["Manshay" => 0, "Rahul" => 0, "Rajat" => 0];
+$totals = ["Manshay" => 0, "Krish" => 0, "Harsh" => 0];
 
 // Loop through subjects
 $srNo = 1;
